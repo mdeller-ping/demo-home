@@ -6,6 +6,10 @@
 
 ``docker run -p 80:80 demo-home``
 
+## deploy from docker hub locally
+
+``docker run -p 80:80 michaeldeller/demo-home``
+
 ## deploy from docker hub and expose with load balancer on kubernetes
 
 ``kubectl create deployment --image=michaeldeller/demo-home friendlyname-demo-home``
