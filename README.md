@@ -8,6 +8,6 @@
 
 ## deploy from docker hub and expose with load balancer on kubernetes
 
-``kubectl create deployment --image=michaeldeller/demo-web friendlyname-demo-web``
+``kubectl create deployment --image=michaeldeller/demo-home friendlyname-demo-home``
 
-``kubectl expose deployment friendlyname-demo-web --port=80 --target-port=80 --type=LoadBalancer --name=friendlyname-demo-web-lb``
+``kubectl expose deployment friendlyname-demo-home --port=80 --target-port=80 --type=LoadBalancer --name=friendlyname-demo-home-lb``
